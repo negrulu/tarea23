@@ -143,13 +143,12 @@ public class Main {
 		bus [2][4]=uriel;
 
 		Scanner entrada = new Scanner(System.in);
-
-		System.out.println("Ingrese fila asiento: ");
-		String fila = entrada.nextLine();
-		System.out.println("Ingrese columna asiento: ");
-		String columna = entrada.nextLine();
 		
-		System.out.println("Su asiento es: "+);
+		System.out.println("Ingrese la fila del pasajero:");
+		int fila = entrada.nextInt();
+		System.out.println("Ingrese la columna del pasajero:");
+		int columna = entrada.nextInt();
+		System.out.println("Pasajero: " + bus[fila][columna]);
 	}
 
 }
